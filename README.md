@@ -72,11 +72,11 @@ Created source and destination datasets representing the input and output CSV fi
 
 #### Input Dataset
 
-![Input Dataset](screenshots/task-03-input-dataset.png)
+![Input Dataset](screenshots/task-03-inputDataSet.png)
 
 #### Output Dataset
 
-![Output Dataset](screenshots/task-03-output-dataset.png)
+![Output Dataset](screenshots/task-03-outputDataSet.png)
 
 ### Get Metadata
 
