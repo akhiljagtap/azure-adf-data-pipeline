@@ -60,7 +60,7 @@ Created an Azure Storage Account, configured a Blob Container, and uploaded the 
 
 ## Task 3 – Azure Data Factory Basics
 
-### Linked Service
+### [a] Linked Service
 
 Configured a Linked Service to establish a secure connection between Azure Data Factory and Azure Blob Storage.
 
@@ -70,15 +70,15 @@ Configured a Linked Service to establish a secure connection between Azure Data 
 
 Created source and destination datasets representing the input and output CSV files used by the pipeline.
 
-#### Input Dataset
+#### [bI] Input Dataset
 
 ![Input Dataset](screenshots/task-03-inputDataset.png)
 
-#### Output Dataset
+#### [bII] Output Dataset
 
 ![Output Dataset](screenshots/task-03-outputDataset.png)
 
-### Get Metadata
+### [C] Get Metadata
 
 Configured the Get Metadata activity to validate the source file by retrieving metadata such as file existence, file size, and last modified date before processing.
 
@@ -122,19 +122,19 @@ Assigned Reader and Contributor roles to the Azure Data Factory Managed Identity
 
 Build a complete Azure Data Factory pipeline that reads a CSV file from Azure Blob Storage, validates its metadata, and copies it to another location.
 
-### Pipeline Execution
+### [a] Pipeline Execution
 
 Successfully executed the pipeline.
 
 ![Pipeline Success](screenshots/mini-project-pipeline-success.png)
 
-### Output File
+### [b] Output File
 
 Verified that the CSV file was successfully copied to the destination.
 
 ![Output](screenshots/mini-project-output-file.png)
 
-### Metadata Validation
+### [c] Metadata Validation
 
 Validated the source file using the Get Metadata activity before copying.
 
